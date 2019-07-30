@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "commonjs",
+    "target": "esnext",
+    "stripInternal": true,
+    "pretty": true,
+    "paths": {
+      "@interfaces": ["./interfaces/index"]
+    },
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "classic"
+  },
+  "exclude": ["node_modules"]
+}
